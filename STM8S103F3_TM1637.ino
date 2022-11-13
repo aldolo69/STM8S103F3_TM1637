@@ -1,6 +1,8 @@
 //STM8S103F3 board and TM1637 led without external lib
 //C only. no C++ required.
 //remember to add 10k pullup resistor for CLK and DIO if not already present on the board
+//seeduino core
+//https://github.com/tenbaht/sduino/raw/master/package_sduino_stm8_index.json
 
 #include <Arduino.h>
 /*
